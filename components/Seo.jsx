@@ -5,8 +5,8 @@ export default function Seo(props) {
 	const router = useRouter();
 	const meta = {
 		title: "Hong Sovichet | Portfolio",
-		description: "An online portfolio by Svay Thavirak and the showcase of my works.",
-		image: "https://thaavirak.vercel.app/favicon.ico",
+		description: "An online portfolio by Hong Sovichet and the showcase of my works.",
+		image: "https://sovichet.vercel.app/favicon.ico",
 		type: "website",
 		robots: "follow, index",
 		...props,
@@ -17,8 +17,8 @@ export default function Seo(props) {
 			<title>{meta.title}</title>
 			<meta name="robots" content={meta.robots} />
 			<meta content={meta.description} name="description" />
-			<meta property="og:url" content={`https://thaavirak.vercel.app${router.asPath}`} />
-			<link rel="canonical" href={`https://thaavirak.vercel.app${router.asPath}`} />
+			<meta property="og:url" content={`https://sovichet.vercel.app${router.asPath}`} />
+			<link rel="canonical" href={`https://sovichet.vercel.app${router.asPath}`} />
 			{/* Open Graph */}
 			<meta property="og:type" content={meta.type} />
 			<meta property="og:site_name" content="Svay Thavirak" />
