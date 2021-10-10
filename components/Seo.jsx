@@ -21,13 +21,13 @@ export default function Seo(props) {
 			<link rel="canonical" href={`https://sovichet.vercel.app${router.asPath}`} />
 			{/* Open Graph */}
 			<meta property="og:type" content={meta.type} />
-			<meta property="og:site_name" content="Svay Thavirak" />
+			<meta property="og:site_name" content="Hong Sovichet" />
 			<meta property="og:description" content={meta.description} />
 			<meta property="og:title" content={meta.title} />
 			<meta name="image" property="og:image" content={meta.image} />
 			{/* Twitter */}
 			<meta name="twitter:card" content="summary_large_image" />
-			<meta name="twitter:site" content="@thavirak_svay" />
+			<meta name="twitter:site" content="@sovichet_hong" />
 			<meta name="twitter:title" content={meta.title} />
 			<meta name="twitter:description" content={meta.description} />
 			<meta name="twitter:image" content={meta.image} />
@@ -35,7 +35,7 @@ export default function Seo(props) {
 				<>
 					<meta property="article:published_time" content={meta.date} />
 					<meta name="publish_date" property="og:publish_date" content={meta.date} />
-					<meta name="author" property="article:author" content="Svay Thavirak" />
+					<meta name="author" property="article:author" content="Hong Sovichet" />
 				</>
 			)}
 		</Head>
