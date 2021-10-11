@@ -99,14 +99,6 @@ export const favoriteTechStacks = {
 		),
 		() => <SiSpringboot className="w-full h-full" />,
 	],
-	mysql: [
-		() => (
-			<p>
-				<CustomLink href="https://www.mysql.com" name="MySQL" />, where I started my frontend development journey, great for building an authenticated website.
-			</p>
-		),
-		() => <SiMysql className="w-full h-full" />,
-	],
 	react: [
 		() => (
 			<p>
@@ -124,39 +116,13 @@ export const favoriteTechStacks = {
 		),
 		() => <SiNextdotjs className="w-full h-full" />,
 	],
-	tailwindcss: [
+	mysql: [
 		() => (
 			<p>
-				<CustomLink href="https://tailwindcss.com" name="Tailwind CSS" />, an utility-first CSS framework is such a breeze to work with, the more I use it the more I like it.
+				<CustomLink href="https://www.mysql.com" name="MySQL" />, where I started my frontend development journey, great for building an authenticated website.
 			</p>
 		),
-		() => <SiTailwindcss className="w-full h-full" />,
-	],
-	nodejs: [
-		() => (
-			<p>
-				<CustomLink href="https://nodejs.org" name="Node.js" />, simple but powerful backend language so you don&apos;t need to learn another language.
-			</p>
-		),
-		() => <SiNodedotjs className="w-full h-full" />,
-	],
-	chakraui: [
-		() => (
-			<p>
-				<CustomLink href="https://chakra-ui.com" name="Chakra UI" />, a ready-to-use component library, comes with all the styling benefits of Tailwind CSS that will give you an
-				ability to build a beautiful website at fast pace.
-			</p>
-		),
-		() => ChakraUIIcon,
-	],
-	reactquery: [
-		() => (
-			<p>
-				<CustomLink href="https://react-query.tanstack.com" name="React Query" /> from the author <CustomLink href="https://github.com/tannerlinsley" name="tannerlinsley" />, great
-				react hooks for data fetching and caching, the revalidate on focus is unreal. <CustomLink href="https://swr.vercel.app" name="SWR" /> is also a great alternative to this.
-			</p>
-		),
-		() => ReactQueryIcon,
+		() => <SiMysql className="w-full h-full" />,
 	],
 };
 
