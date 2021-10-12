@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
 	@font-face {
 		font-family: "EuclidCircularB";
@@ -33,7 +34,6 @@
 		font-display: swap;
 	}
 }
-
 @layer utilities {
 	.vertical-lr {
 		writing-mode: vertical-lr;
@@ -46,20 +46,15 @@
 html {
 	scroll-behavior: smooth;
 }
-
 body {
-	@apply font-body relative text-gray-800 dark:text-gray-300 bg-gray-200 dark:bg-darkBlue-500;
+	@apply font-body relative text-gray-800 dark:text-gray-300 bg-sand-200 dark:bg-darkBlue-500;
 }
-
 .custom-svg {
 	@apply fill-current h-full w-full;
 }
-
 .custom-fill {
 	@apply fill-current text-sand-200 dark:text-darkBlue-800;
 }
-
 .outline-button {
-	@apply px-6 block min-w-[12ch] py-3 text-blue-700 ring-2 ring-blue-700 transition hover:bg-blue-700 
-	hover:bg-opacity-20 dark:text-cyan-500 dark: hover: bg-opacity-20 dark:ring-cyan-500 dark: hover: bg-cyan-500 rounded-sm;
+	@apply px-6 block min-w-[12ch] py-3 text-blue-700 ring-2 ring-blue-700 transition hover:bg-blue-700 hover:bg-opacity-20 dark:text-cyan-500 dark:hover:bg-opacity-20 dark:ring-cyan-500 dark:hover:bg-cyan-500 rounded-sm;
 }
