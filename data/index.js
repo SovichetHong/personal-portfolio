@@ -28,7 +28,7 @@ const ChakraUIIcon = (
 );
 export const defaultTheme = "dark";
 export const email = "sovichet.hong168@gmail.com";
-export const cvUrl = "https://drive.google.com/file/d/1wxwLlWJ9mPkqjbRJIgrKxoMbeSmAqCyP/view?usp=sharing";
+export const cvUrl = "https://drive.google.com/file/d/1MvDQWkmbW0A9D2bSV59YkAn6IXmMnMXr/view?usp=sharing";
 
 export const menu = [
 	{
