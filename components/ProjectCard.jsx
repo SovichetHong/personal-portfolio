@@ -15,7 +15,7 @@ export default function ProjectCard({ title, description, tectStacks, imageSrc, 
 					<p className="text-blue-700 dark:text-cyan-500 tracking-wide">Featured Project</p>
 					<p className="font-semibold text-xl md:text-2xl hover:text-blue-700 dark:hover:text-cyan-500">{title}</p>
 				</motion.div>
-				<motion.div variants={fadeUp} className={`md:bg-sand-300 md:dark:bg-darkBlue-400 rounded-md`}>
+				<motion.div variants={fadeUp} className={`md:bg-gray-300 md:dark:bg-darkBlue-400 rounded-md`}>
 					<p className={`text-sm p-0.5 md:p-4 text-current`}>{description}</p>
 				</motion.div>
 
@@ -26,7 +26,7 @@ export default function ProjectCard({ title, description, tectStacks, imageSrc, 
 							animation="scale-subtle"
 							interactive={true}
 							content={
-								<span className="inline-block p-2 bg-sand-200 dark:bg-darkBlue-500 ring-1 ring-blue-700 dark:ring-cyan-500 rounded-md shadow-md dark:bg-dark">
+								<span className="inline-block p-2 bg-gray-200 dark:bg-darkBlue-500 ring-1 ring-blue-700 dark:ring-cyan-500 rounded-md shadow-md dark:bg-dark">
 									{name}
 								</span>
 							}
@@ -46,14 +46,14 @@ export default function ProjectCard({ title, description, tectStacks, imageSrc, 
 			</motion.div>
 
 			<motion.div variants={fadeUp} className="col-span-12 md:col-span-6 flex space-x-5 py-4">
-				<p className="bg-sand-300 dark:bg-darkBlue-400 text-xl p-4 rounded-2xl h-[max-content]">🧐</p>
+				<p className="bg-gray-300 dark:bg-darkBlue-400 text-xl p-4 rounded-2xl h-[max-content]">🧐</p>
 				<blockquote>
 					<p className="text-xl py-4 tracking-wide text-blue-700 dark:text-cyan-500">Challenge</p>
 					<p className="opacity-80">{challenge}</p>
 				</blockquote>
 			</motion.div>
 			<motion.div variants={fadeUp} className="col-span-12 md:col-span-6 flex space-x-5 py-4">
-				<p className="bg-sand-300 dark:bg-darkBlue-400 text-xl p-4 rounded-2xl h-[max-content]">🙌</p>
+				<p className="bg-gray-300 dark:bg-darkBlue-400 text-xl p-4 rounded-2xl h-[max-content]">🙌</p>
 				<blockquote>
 					<p className="text-xl py-4 tracking-wide text-blue-700 dark:text-cyan-500">Solution</p>
 					<p className="opacity-80">{solution}</p>

@@ -32,7 +32,7 @@ export default function Nav() {
 			as="header"
 			id="navbar"
 			style={{ transitionProperty: "top,border-color" }}
-			className={`fixed w-full border-b-2 h-[60px] md:duration-300 md:h-[70px] bg-sand-200 dark:bg-darkBlue-500 ${
+			className={`fixed w-full border-b-2 h-[60px] md:duration-300 md:h-[70px] bg-gray-200 dark:bg-darkBlue-500 ${
 				y !== 0 ? "border-gray-800 dark:border-gray-300" : "border-transparent dark:border-transparent"
 			} z-20 top-0 ${previousY >= y || y === 0 ? "md:top-0" : "md:top-[-70px]"} `}
 		>
@@ -65,13 +65,13 @@ export default function Nav() {
 						</motion.button>
 					</motion.div>
 
-					<motion.div className={`fixed w-full z-30 top-[60px] bg-sand-200 dark:bg-darkBlue-500`}>
+					<motion.div className={`fixed w-full z-30 top-[60px] bg-gray-200 dark:bg-darkBlue-500`}>
 						<Menu.Items className="focus:outline-none">
 							<motion.div
 								variants={navbarContainer}
 								initial="initial"
 								animate="animate"
-								className="flex flex-col bg-sand-200 w-full md:hidden border-b-2 border-blue-700 dark:border-cyan-500 dark:bg-darkBlue-500 justify-between uppercase text-sm font-medium tracking-wider space-y-3 px-8 py-2"
+								className="flex flex-col bg-gray-200 w-full md:hidden border-b-2 border-blue-700 dark:border-cyan-500 dark:bg-darkBlue-500 justify-between uppercase text-sm font-medium tracking-wider space-y-3 px-8 py-2"
 							>
 								{menu.map(({ id, name }) => (
 									<Menu.Item key={id}>
