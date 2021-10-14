@@ -130,7 +130,7 @@ export const projects = [
 	{
 		title: "Payroll Management System",
 		description:
-			"A web app for managing employees data for enterprise companies. Add and modify employees' information, payslips, deposit & withdrawal funds, mistakes & achievements and leave requests. Print and exports reports & summaries related to payroll, employee, funding, and more.",
+			"A web application system for managing employees data for enterprise companies. Add and modify employees' information, payslips, deposit & withdrawal, provident funds, mistakes & achievements and leave requests. Print and exports reports & summaries related to payroll by months and the yearly report also, and more.",
 		imageSrc: require("@/public/a.png"),
 		tectStacks: [
 			{
@@ -151,7 +151,7 @@ export const projects = [
 			},
 		],
 		challenge:
-			"Build tables that contain large datasets and require cells to be editable. Simply putting all the data from API into a react table library is not enough because tables become lagging as users typing and big chunks of data pile up.",
+			"Build an API that can process payroll for the employee by months that have a lot of fields and many conditions of the employee before run payroll pay on credit or by case with allowed, provident fund, deposit, bonus, and more.",
 		solution: "I built a custom table component that is capable of performing calculations vertically and horizontally using JavaScript DOM. Since it does not use React's virtual DOM, we can avoid frequent re-rendering and significantly improve performance.",
 	},
 	{
