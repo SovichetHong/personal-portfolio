@@ -73,7 +73,7 @@ export const socialMedia = [
 	},
 	{
 		icon: <RiLinkedinBoxLine size="1.5rem" />,
-		href: "https://www.linkedin.com/in/sovichet-hong-197ab7193",
+		href: "https://www.linkedin.com/in/sovichet-hong",
 	},
 	{
 		icon: <RiTelegramLine size="1.5rem" />,
