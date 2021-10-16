@@ -128,9 +128,9 @@ export const favoriteTechStacks = {
 
 export const projects = [
 	{
-		title: "Payroll Management System",
+		title: "Human Resource Management",
 		description:
-			"A web application system for managing employees data for enterprise companies. Add and modify employees' information, payslips, deposit & withdrawal, provident funds, mistakes & achievements and leave requests. Print and exports reports & summaries related to payroll by months and the yearly report also, and more.",
+			"A web application system for HR or Management managing employee data for enterprise companies. Add and modify employees' information, payslips, deposit & withdrawal, provident funds, mistakes & achievements and leave requests. Print and exports reports & summaries related to payroll by months and the yearly report also, and more.",
 		imageSrc: require("@/public/a.png"),
 		tectStacks: [
 			{
